@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Doce Encanto Confeitaria</title>
+
+<style>
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background:#fff5f7;
+color:#333;
+}
+
+header{
+background:#ff85a2;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+nav{
+background:#ffc2d1;
+padding:10px;
+text-align:center;
+}
+
+nav a{
+margin:0 15px;
+text-decoration:none;
+color:#333;
+font-weight:bold;
+}
+
+section{
+padding:40px;
+text-align:center;
+}
+
+.produtos{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:10px;
+width:200px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.card img{
+width:100%;
+border-radius:10px;
+}
+
+footer{
+background:#ff85a2;
+color:white;
+text-align:center;
+padding:15px;
+}
+.botao{
+display:inline-block;
+margin-top:15px;
+padding:10px 20px;
+background:#25D366;
+color:white;
+text-decoration:none;
+border-radius:8px;
+font-weight:bold;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>🍰 Doce Encanto Confeitaria</h1>
+<p>Bolos e doces feitos com amor</p>
+</header>
+
+<nav>
+<a href="#inicio">Início</a>
+<a href="#produtos">Produtos</a>
+<a href="#sobre">Sobre</a>
+<a href="#contato">Contato</a>
+</nav>
+
+<section id="inicio">
+<h2>Bem-vindo!</h2>
+<p>Os melhores doces da cidade para deixar seu dia mais feliz.</p>
+</section>
+
+<section id="produtos">
+<h2>Nossos Doces</h2>
+
+<div class="produtos">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1602351447937-745cb720612f">
+<h3>Bolo de Chocolate</h3>
+<p>R$ 50,00</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1551024601-bec78aea704b">
+<h3>Brigadeiros</h3>
+<p>R$ 2,50 cada</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1587248720327-8eb72564be1e">
+<h3>Cupcakes</h3>
+<p>R$ 6,00</p>
+</div>
+
+</div>
+</section>
+
+<section id="sobre">
+<h2>Sobre Nós</h2>
+<p>Somos uma confeitaria artesanal que faz doces fresquinhos todos os dias para tornar momentos especiais ainda mais doces.</p>
+</section>
+
+<section id="contato">
+<h2>Faça sua encomenda</h2>
+<p>Entre em contato pelo WhatsApp</p>
+
+<a class="botao" href="https://wa.me/5599999999999">
+Pedir pelo WhatsApp
+</a>
+
+</section>
+
+<footer>
+<p>© 2026 Doce Encanto Confeitaria</p>
+</footer>
+
+</body>
+</html>
